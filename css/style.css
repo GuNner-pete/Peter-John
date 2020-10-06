@@ -1,0 +1,46 @@
+body{
+    max-width: 1000;
+    background-color: black;
+}
+nav{
+    display: grid;
+    flex-flow: column;
+    align-items: baseline;
+    position: fixed;
+    margin-top: 20px;
+    max-width: 160px;
+    border-right: 2px solid black ;
+    padding-right: 20px;
+  
+}
+.code{
+    text-decoration: none;
+    background-color: rgb(240, 220, 220);
+    
+}
+.list-group{
+    max-width: 500px;
+    margin-left: 27%;
+text-align: center;
+align-content: center;
+
+}
+header{
+    font-size: 30px;
+    font-weight: bold;
+text-align: center;
+}
+main{
+    margin-left: 170px;
+    max-width: 70%;
+}
+
+@media only screen and (min-width: 700px) {
+    body {
+      background-color: blue;
+    }
+  }
+  p{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: larger;
+  }
